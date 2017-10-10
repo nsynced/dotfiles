@@ -1,0 +1,7 @@
+#!/bin/sh
+
+WALLPAPER=$HOME/Pictures/785576.png
+
+xcompmgr -c -C -t-3 -l-5 -r5 -o.65 &
+
+feh --bg-center $WALLPAPER &
